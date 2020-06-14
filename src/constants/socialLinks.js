@@ -1,10 +1,9 @@
 import React from "react"
 import {
   FaFacebookSquare,
+  FaGithub,
   FaLinkedin,
-  FaDribbbleSquare,
-  FaBehanceSquare,
-  FaTwitterSquare,
+  FaStackOverflow,
 } from "react-icons/fa"
 
 const data = [
@@ -15,23 +14,18 @@ const data = [
   },
   {
     id: 2,
-    icon: <FaLinkedin className="social-icon"></FaLinkedin>,
-    url: "https://www.twitter.com",
+    icon: <FaGithub className="social-icon"></FaGithub>,
+    url: "https://github.com/shahriarsohan",
   },
   {
     id: 3,
-    icon: <FaDribbbleSquare className="social-icon"></FaDribbbleSquare>,
-    url: "https://www.twitter.com",
+    icon: <FaLinkedin className="social-icon"></FaLinkedin>,
+    url: "https://www.linkedin.com/in/sohanpy/",
   },
   {
     id: 4,
-    icon: <FaBehanceSquare className="social-icon"></FaBehanceSquare>,
-    url: "https://www.twitter.com",
-  },
-  {
-    id: 5,
-    icon: <FaTwitterSquare className="social-icon"></FaTwitterSquare>,
-    url: "https://www.twitter.com",
+    icon: <FaStackOverflow className="social-icon"></FaStackOverflow>,
+    url: "https://stackoverflow.com/users/11941865/shahriar-sohan",
   },
 ]
 const links = data.map(link => {

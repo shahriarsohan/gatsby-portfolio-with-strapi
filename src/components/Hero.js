@@ -3,9 +3,10 @@ import Image from "gatsby-image"
 import { Link } from "gatsby"
 import { graphql, useStaticQuery } from "gatsby"
 import SocialLinks from "../constants/socialLinks"
-const query = graphql`
+
+export const query = graphql`
   {
-    file(relativePath: { eq: "hero-img.png" }) {
+    file(relativePath: { eq: "undraw_feeling_proud_qne1.png" }) {
       childImageSharp {
         fluid {
           ...GatsbyImageSharpFluid
@@ -14,6 +15,7 @@ const query = graphql`
     }
   }
 `
+
 const Hero = () => {
   const {
     file: {
@@ -28,10 +30,10 @@ const Hero = () => {
           <div>
             <div className="underline"></div>
             <h1>i'm Sohan</h1>
-            <h4>freelance web and mobile UI/UX Designer</h4>
-            <Link to="/contact" className="btn">
-              contact me
-            </Link>
+            <h4>freelance full stack developer</h4>
+            <a href="https://www.fiverr.com/sohan_dev" className="btn">
+              HIRE ME!
+            </a>
             <SocialLinks />
           </div>
         </article>
