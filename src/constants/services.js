@@ -10,13 +10,13 @@ export default [
   {
     id: 2,
     icon: <FaSketch className="service-icon" />,
-    title: "web design",
+    title: "Backend service",
     text: `Built a highly scalable backend application with Django or node js.These are the trending technologies for your next projects.`,
   },
   {
     id: 3,
     icon: <FaAndroid className="service-icon" />,
     title: "app design",
-    text: `Built hybrid smartphone application that runs on every smartphone os with the same code.Yo dont need to hire android and ios developer separately`,
+    text: `Built hybrid smartphone application that runs on every smartphone os with the same code.You dont need to hire android and ios developer separately`,
   },
 ]

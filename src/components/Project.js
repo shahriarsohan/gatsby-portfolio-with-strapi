@@ -41,7 +41,7 @@ const Project = () => {
   console.log(projects)
 
   return (
-    <section className="section projects">
+    <section id="projects" className="section projects">
       <Title title="featured projects" />
       <div className="section-center projects-center">
         {projects.map((proj, index) => {
@@ -74,9 +74,9 @@ const Project = () => {
           )
         })}
       </div>
-      <Link to="/projects" className="btn center-btn">
+      <a href="https://github.com/shahriarsohan" className="btn center-btn">
         More Projects
-      </Link>
+      </a>
     </section>
   )
 }
