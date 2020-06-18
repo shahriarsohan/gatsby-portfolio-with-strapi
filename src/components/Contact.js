@@ -6,7 +6,8 @@ export const Contact = () => {
       <article className="contact-form">
         <h3>Get In Touch</h3>
         <form
-          action="https://send.pageclip.co/VuqhsFLA9r29bv10Esw1H6zUjI1DXhNn/contact"
+          action="https://send.pageclip.co/VuqhsFLA9r29bv10Esw1H6zUjI1DXhNn/new"
+          class="pageclip-form"
           method="POST"
         >
           <div className="form-group">
@@ -30,7 +31,10 @@ export const Contact = () => {
               className="form-control"
             ></textarea>
           </div>
-          <button type="submit" className="submit-btn btn">
+          <button
+            type="submit"
+            className="submit-btn btn pageclip-form__submit"
+          >
             Send Message
           </button>
         </form>
