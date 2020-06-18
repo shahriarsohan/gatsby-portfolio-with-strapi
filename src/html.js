@@ -6,6 +6,13 @@ export default function HTML(props) {
     <html {...props.htmlAttributes}>
       <head>
         <meta charSet="utf-8" />
+        <title>Sohan || AI Enthusiast</title>
+        <link
+          rel="icon"
+          href="./assets/logo-via-logohub.png"
+          type="image/gif"
+          sizes="16x16"
+        />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta
           name="viewport"
