@@ -16,6 +16,17 @@ export default function HTML(props) {
           href="https://s.pageclip.co/v1/pageclip.css"
           media="screen"
         ></link>
+        <link
+          rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+          media="screen"
+        ></link>
+        <link
+          rel="stylesheet"
+          href="https://use.fontawesome.com/releases/v5.0.6/css/all.css"
+          media="screen"
+        ></link>
+
         {props.headComponents}
       </head>
       <body {...props.bodyAttributes}>
@@ -29,6 +40,19 @@ export default function HTML(props) {
           src="https://s.pageclip.co/v1/pageclip.js"
           charSet="utf-8"
         ></script>
+        <script
+          src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+          charSet="utf-8"
+        ></script>
+        <script
+          src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+          charSet="utf-8"
+        ></script>
+        <script
+          src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+          charSet="utf-8"
+        ></script>
+
         {props.postBodyComponents}
       </body>
     </html>

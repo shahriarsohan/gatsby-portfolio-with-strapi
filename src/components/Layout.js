@@ -8,8 +8,8 @@ import Hero from "./Hero"
 import Services from "./Services"
 import Jobs from "./Jobs"
 import Projects from "./Project"
-import About from "./About"
 import { Contact } from "./Contact"
+import { Testimonial } from "./Testimonial"
 
 const Layout = ({ children }) => {
   const [isOpen, setisOpen] = React.useState(false)
@@ -26,6 +26,7 @@ const Layout = ({ children }) => {
       <Services />
       <Jobs />
       <Projects />
+      <Testimonial />
       <Contact />
       <Footer />
     </>
