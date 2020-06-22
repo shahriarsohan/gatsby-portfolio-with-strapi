@@ -10,6 +10,7 @@ import Jobs from "./Jobs"
 import Projects from "./Project"
 import { Contact } from "./Contact"
 import { Testimonial } from "./Testimonial"
+import Tools from "./Tools"
 
 const Layout = ({ children }) => {
   const [isOpen, setisOpen] = React.useState(false)
@@ -26,6 +27,7 @@ const Layout = ({ children }) => {
       <Services />
       <Jobs />
       <Projects />
+      <Tools />
       <Testimonial />
       <Contact />
       <Footer />

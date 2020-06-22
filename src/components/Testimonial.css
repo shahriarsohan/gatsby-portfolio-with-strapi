@@ -1,3 +1,7 @@
+.testimonial-area {
+  background: hsl(210, 36%, 96%);
+}
+
 .card {
   margin: 0 auto;
   border: none;
@@ -57,7 +61,7 @@
   font-size: 14px;
 }
 .carousel-caption h2 span {
-  color: #cd3a54;
+  color: #74bed1;
 }
 @media (min-width: 320px) and (max-width: 575px) {
   .carousel-caption {
